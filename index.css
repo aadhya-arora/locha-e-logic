@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 #container {
   width: 100%;
@@ -271,6 +272,7 @@ body {
   flex-wrap: wrap;
   gap: 4rem;
 }
+
 .q_box {
   background-color: #fffbeb;
   padding: 1rem;
@@ -279,6 +281,10 @@ body {
   box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
   margin-bottom: 1rem;
 }
+.q_box:hover {
+  box-shadow: 0 4px 6px rgb(0, 0, 1);
+}
+
 .q_text {
   color: #396c03;
   font-family: "Poppins", serif;
@@ -290,7 +296,6 @@ body {
   font-family: "Poppins", serif;
 }
 .pocket {
-  margin-left: 100px;
   background-color: #fffbeb;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -302,12 +307,14 @@ body {
 }
 
 .text_pocket {
+  margin-left: 100px;
   color: #396c03;
   font-family: "Poppins", serif;
   font-weight: 600;
   font-size: 30px;
 }
 .pocket_para {
+  margin-left: 100px;
   color: grey;
   margin-top: 1rem;
   font-size: 15px;
@@ -315,6 +322,7 @@ body {
   font-weight: 400;
 }
 .app_img {
+  margin-left: 100px;
   display: flex;
   margin-top: 1.5rem;
   gap: 2rem;
@@ -381,7 +389,7 @@ body {
 .join_chaska {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-image: url("https://placehold.co/450x450");
+  background-image: url("./chef.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -393,6 +401,7 @@ body {
   width: 700px;
 }
 .join_text {
+  margin-top: 13rem;
   text-align: center;
   color: white;
 }
@@ -405,7 +414,7 @@ body {
 .chaska_para {
   color: white;
   font-family: "Poppins", serif;
-  font-weight: 400;
+  font-weight: 600;
 }
 .join_bt {
   margin-top: 1.5rem;
