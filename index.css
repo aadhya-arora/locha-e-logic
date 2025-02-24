@@ -23,6 +23,17 @@ body {
   margin-right: 16px;
   color: #396c03;
 }
+.navigate1_a {
+  font-family: "Poppins", serif;
+  margin-right: 16px;
+  color: #ff8b00;
+}
+.navigate1:hover {
+  color: #ff8b00;
+}
+.navigate1_a:hover {
+  color: #396c03;
+}
 .navigate2 {
   display: flex;
   flex-direction: row;
@@ -37,6 +48,9 @@ body {
   font-family: "Poppins", serif;
   font-weight: 600;
 }
+.login_b:hover {
+  background-color: #ff8b00;
+}
 
 .cart-icon {
   display: flex;
@@ -48,9 +62,15 @@ body {
   background-color: #396c03;
   color: white;
 }
+.cart-icon:hover {
+  background-color: #ff8b00;
+}
 
 .intro {
-  background-color: #d1fae5;
+  background-image: url("/locha-e-logic/leaf.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30%;
 }
 .center_display {
   padding: 50px;
@@ -138,9 +158,262 @@ body {
   font-weight: 600;
 }
 
+.explore_bt:hover {
+  background-color: #ff8b00;
+}
+
 .cycle_img {
   margin-top: -120px;
   margin-left: -100px;
-  height: 500px;
+  height: 600px;
+  width: 1000px;
+}
+.second_sec {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* background-color: #fffbeb; */
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.box_bg {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.box_bg:hover {
+  box-shadow: 0 4px 6px rgb(0, 0, 1);
+}
+
+.food_icons {
+  margin-bottom: 1rem;
+  color: #396c03;
+  font-size: 2.5rem;
+}
+.food_text {
+  color: #203a04;
+  font-size: 20px;
+}
+.food_para {
+  margin-top: 1rem;
+  color: grey;
+  font-size: 15px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+
+.faq {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.faq_section {
+  width: 100%;
+  margin: auto;
+}
+.question {
+  text-align: center;
+  font-size: 40px;
+  color: #396c03;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+}
+.faq_b {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.faq_b1 {
+  margin-top: 20px;
+  background-color: rgb(211, 209, 209);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  min-width: 100px;
+  color: #396c03;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+.faq_b2 {
+  margin-top: 20px;
+  background-color: rgb(211, 209, 209);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  min-width: 100px;
+  color: #396c03;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+.faq_b1:hover {
+  background-color: #ff8b00;
+  color: #fffbeb;
+}
+.faq_b2:hover {
+  background-color: #ff8b00;
+  color: #fffbeb;
+}
+
+.main_q,
+.main_q2 {
+  display: none;
+  margin-top: 2rem;
+  justify-content: center;
+  /* display: flex; */
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.q_box {
+  background-color: #fffbeb;
+  padding: 1rem;
+  border-radius: 0.5rem;
   width: 500px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+.q_text {
+  color: #396c03;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+.q_para {
+  margin-top: 1rem;
+  color: grey;
+  font-family: "Poppins", serif;
+}
+.pocket {
+  margin-left: 100px;
+  background-color: #fffbeb;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.pocket_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text_pocket {
+  color: #396c03;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.pocket_para {
+  color: grey;
+  margin-top: 1rem;
+  font-size: 15px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+.app_img {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 2rem;
+  flex-direction: row;
+}
+.ios_img {
+  height: 50px;
+  width: 150px;
+}
+.pocket_big {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 300px;
+}
+.pocket_img {
+  border-radius: 10%;
+  height: 400px;
+  width: 600px;
+}
+.foot {
+  background-color: #213908;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.foot_sections {
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+}
+.foot_logo {
+  margin-left: 90px;
+  color: #ff8b00;
+  font-size: 70px;
+  font-family: "Smooch", serif;
+}
+.logo_text {
+  margin-left: 90px;
+  color: grey;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+.foot_head {
+  margin-top: 1rem;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+.foot_pointers {
+  margin-top: 1rem;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  color: grey;
+}
+
+.copyright {
+  text-align: center;
+  color: grey;
+  margin-top: 3rem;
+}
+
+.join_chaska {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url("https://placehold.co/450x450");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  align-items: center;
+  height: 500px;
+  width: 700px;
+}
+.join_text {
+  text-align: center;
+  color: white;
+}
+.chaska_text {
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.chaska_para {
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+.join_bt {
+  margin-top: 1.5rem;
+  background-color: #ff8b00;
+  border-radius: 0.4rem;
+  width: 100px;
+  padding: 10px;
+}
+.join_bt:hover {
+  background-color: #203a04;
 }

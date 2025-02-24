@@ -23,7 +23,7 @@
       <div id="container">
         <div class="name">Chaska</div>
         <nav>
-          <a class="navigate1" href="#" style="color: #ff8b00">Home</a>
+          <a class="navigate1_a" href="#">Home</a>
           <a class="navigate1" href="#">Menu</a>
           <a class="navigate1" href="#">About</a>
           <a class="navigate1" href="#">Contact</a>
@@ -49,7 +49,7 @@
           <div class="search_bar">
             <input
               class="text_bar"
-              placeholder="Enter your location"
+              placeholder="Enter your choice of food"
               type="text"
             />
             <button class="search_b">Search</button>
@@ -75,106 +75,114 @@
         <button class="explore_bt">Explore</button>
       </div>
       <div class="cycle_img_div">
-        <img src="https://placehold.co/400x400" class="cycle_img" />
+        <img src="cycle.png" class="cycle_img" />
       </div>
     </section>
 
-    <section>
-      <div
-        class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
-      >
-        <div class="bg-white p-6 rounded shadow">
-          <div class="text-green-700 text-4xl mb-4">
+    <section class="second_sec">
+      <div class="boxes">
+        <div class="box_bg">
+          <div class="food_icons">
             <i class="fas fa-utensils"></i>
           </div>
-          <h3 class="text-xl font-bold text-gray-700">
-            Wide range of food items
-          </h3>
-          <p class="mt-2 text-gray-600">
+          <h3 class="food_text">Wide range of food items</h3>
+          <p class="food_para">
             Choose from a variety of cuisines and dishes to satisfy your
             cravings.
           </p>
         </div>
-        <div class="bg-white p-6 rounded shadow">
-          <div class="text-green-700 text-4xl mb-4">
+        <div class="box_bg">
+          <div class="food_icons">
             <i class="fas fa-shopping-cart"></i>
           </div>
-          <h3 class="text-xl font-bold text-gray-700">Easy ordering process</h3>
-          <p class="mt-2 text-gray-600">
+          <h3 class="food_text">Easy ordering process</h3>
+          <p class="food_para">
             Order your favorite meals with just a few clicks and get them
             delivered fast.
           </p>
         </div>
-        <div class="bg-white p-6 rounded shadow">
-          <div class="text-green-700 text-4xl mb-4">
+        <div class="box_bg">
+          <div class="food_icons">
             <i class="fas fa-biking"></i>
           </div>
-          <h3 class="text-xl font-bold text-gray-700">
-            Fast delivery within 20 min
-          </h3>
-          <p class="mt-2 text-gray-600">
+          <h3 class="food_text">Fast delivery within 20 min</h3>
+          <p class="food_para">
             Enjoy your meals hot and fresh with our super fast delivery service.
           </p>
         </div>
       </div>
     </section>
-    <!-- Join Us Section -->
-    <section class="bg-green-700 py-12">
-      <div class="container mx-auto text-center text-white">
-        <h2 class="text-3xl font-bold">Want to be a part of Chaska?</h2>
-        <p class="mt-4">Turn your cooking passion into a profession.</p>
-        <button class="mt-6 bg-orange-500 text-white px-6 py-2 rounded">
-          Join Us
-        </button>
+
+    <section class="join_chaska">
+      <div class="join_text">
+        <h2 class="chaska_text">Want to be a part of Chaska?</h2>
+        <p class="chaska_para">Turn your cooking passion into a profession.</p>
+        <button class="join_bt">Join Us</button>
       </div>
     </section>
-    <!-- FAQ Section -->
-    <section class="py-12">
-      <div class="container mx-auto">
-        <h2 class="text-3xl font-bold text-center text-green-700">
-          Frequently asked questions
-        </h2>
-        <div class="mt-8 flex justify-center space-x-4">
-          <button class="bg-green-700 text-white px-4 py-2 rounded">
-            General
-          </button>
-          <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded">
-            For Business
-          </button>
+
+    <section class="faq">
+      <div class="faq_section">
+        <h2 class="question">Frequently asked questions</h2>
+        <div class="faq_b">
+          <button class="faq_b1" onclick="display()">General</button>
+          <button class="faq_b2" onclick="display2()">For Business</button>
         </div>
-        <div class="mt-8">
-          <div class="bg-white p-4 rounded shadow mb-4">
-            <h3 class="text-lg font-bold text-gray-700">
-              What is the range of food items?
-            </h3>
-            <p class="mt-2 text-gray-600">
+        <div class="main_q">
+          <div class="q_box">
+            <h3 class="q_text">What is the range of food items?</h3>
+            <p class="q_para">
               We offer a wide range of cuisines including Indian, Chinese,
               Italian, and more.
             </p>
           </div>
-          <div class="bg-white p-4 rounded shadow mb-4">
-            <h3 class="text-lg font-bold text-gray-700">
-              How can I place an order?
-            </h3>
-            <p class="mt-2 text-gray-600">
+          <div class="q_box">
+            <h3 class="q_text">How can I place an order?</h3>
+            <p class="q_para">
               You can place an order through our website or mobile app with just
               a few clicks.
             </p>
           </div>
-          <div class="bg-white p-4 rounded shadow mb-4">
-            <h3 class="text-lg font-bold text-gray-700">
-              What are the delivery charges?
-            </h3>
-            <p class="mt-2 text-gray-600">
+          <div class="q_box">
+            <h3 class="q_text">What are the delivery charges?</h3>
+            <p class="q_para">
               Delivery charges vary based on your location and the total order
               amount.
             </p>
           </div>
-          <div class="bg-white p-4 rounded shadow mb-4">
-            <h3 class="text-lg font-bold text-gray-700">
-              How do I track my order?
-            </h3>
-            <p class="mt-2 text-gray-600">
+          <div class="q_box">
+            <h3 class="q_text">How do I track my order?</h3>
+            <p class="q_para">
+              You can track your order in real-time through our website or
+              mobile app.
+            </p>
+          </div>
+        </div>
+        <div class="main_q2">
+          <div class="q_box">
+            <h3 class="q_text">How to apply for internship?</h3>
+            <p class="q_para">
+              We offer a wide range of cuisines including Indian, Chinese,
+              Italian, and more.
+            </p>
+          </div>
+          <div class="q_box">
+            <h3 class="q_text">What do I get after subscribing?</h3>
+            <p class="q_para">
+              You can place an order through our website or mobile app with just
+              a few clicks.
+            </p>
+          </div>
+          <div class="q_box">
+            <h3 class="q_text">Is it available 24 hours?</h3>
+            <p class="q_para">
+              Delivery charges vary based on your location and the total order
+              amount.
+            </p>
+          </div>
+          <div class="q_box">
+            <h3 class="q_text">Is there a hidden fee?</h3>
+            <p class="q_para">
               You can track your order in real-time through our website or
               mobile app.
             </p>
@@ -182,73 +190,63 @@
         </div>
       </div>
     </section>
-    <!-- App Section -->
-    <section class="bg-yellow-50 py-12">
-      <div class="container mx-auto flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 text-center md:text-left">
-          <h2 class="text-3xl font-bold text-green-700">
-            Put us in your pocket
-          </h2>
-          <p class="mt-4 text-gray-600">
-            Download our mobile app and order your favorite meals on the go.
+
+    <section class="pocket">
+      <div class="pocket_content">
+        <div class="pocket_l">
+          <h2 class="text_pocket">Put us in your pocket</h2>
+          <p class="pocket_para">
+            Our mobile app will be available soon on various platforms
           </p>
-          <div class="mt-6 flex justify-center md:justify-start space-x-4">
-            <img
-              alt="App Store Badge"
-              class="shadow-lg"
-              height="50"
-              src="https://placehold.co/150x50"
-              width="150"
-            />
-            <img
-              alt="Google Play Badge"
-              class="shadow-lg"
-              height="50"
-              src="https://placehold.co/150x50"
-              width="150"
-            />
+          <div class="app_img">
+            <img class="ios_img" src="https://placehold.co/150x50" />
+            <img class="ios_img" src="https://placehold.co/150x50" />
           </div>
         </div>
-        <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-          <img
-            alt="Mobile app showing food items"
-            class="rounded shadow-lg"
-            height="400"
-            src="https://placehold.co/400x400"
-            width="400"
-          />
+        <div class="pocket_big">
+          <img class="pocket_img" src="dalle.png" />
         </div>
       </div>
     </section>
-    <!-- Footer -->
-    <footer class="bg-green-700 py-12 text-white">
-      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <footer class="foot">
+      <div class="foot_sections">
         <div>
-          <h3 class="text-xl font-bold">Chaska</h3>
-          <p class="mt-4">
-            Feeding your obsession with the most delicious cuisines delivered to
-            your doorstep.
+          <h3 class="foot_logo">Chaska</h3>
+          <p class="logo_text">
+            Chaska is a place where Every Bite is an Obsession! 🍽️🔥<br />Bringing
+            you bold flavors, unforgettable experiences, and <br />a taste that
+            keeps you coming back for more!
           </p>
         </div>
         <div>
-          <h3 class="text-xl font-bold">Quick Links</h3>
-          <ul class="mt-4 space-y-2">
-            <li><a class="hover:underline" href="#">Home</a></li>
-            <li><a class="hover:underline" href="#">Menu</a></li>
-            <li><a class="hover:underline" href="#">About</a></li>
-            <li><a class="hover:underline" href="#">Contact</a></li>
+          <h3 class="foot_head">Quick Links</h3>
+          <ul class="foot_pointers">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="text-xl font-bold">Contact Us</h3>
-          <ul class="mt-4 space-y-2">
+          <h3 class="foot_head">Contact Us</h3>
+          <ul class="foot_pointers">
             <li>Email: info@chaska.com</li>
-            <li>Phone: +123 456 7890</li>
-            <li>Address: 123 Food Street, Flavor Town</li>
+            <li>Phone: +91-823 456 7890</li>
+            <li>Address: 123 Food Street</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="foot_head">Social</h3>
+          <ul class="foot_pointers">
+            <li>Join Chaska</li>
+            <li>Track order</li>
+            <li>Browse Chaska</li>
           </ul>
         </div>
       </div>
-      <div class="mt-12 text-center">© 2023 Chaska. All rights reserved.</div>
+      <div class="copyright">© 2023 Chaska. All rights reserved.</div>
     </footer>
   </body>
+  <script src="index.js"></script>
 </html>
