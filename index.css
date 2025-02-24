@@ -4,6 +4,70 @@ body {
   padding: 0;
   cursor: pointer;
 }
+/* #modal {
+  z-index: 1000;
+  display: flex;
+  position: fixed;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #a2b48f;
+  margin: auto;
+  padding: 20px;
+  border: 10px double #203a04;
+  width: 50%;
+  padding-bottom: 100px;
+}
+.brand-logo {
+  display: flex;
+  justify-content: center;
+  color: #ff8b00;
+  font-family: "Smooch", serif;
+  font-size: 60px;
+}
+.brand-options {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.login_btn {
+  color: #203a04;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  font-size: 30px;
+}
+.login_options {
+  display: flex;
+  flex-direction: column;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+} */
+
+header {
+  background-color: white;
+  box-shadow: 0 4px 6pc rgb(0, 0, 0, 0.1);
+}
 #container {
   width: 100%;
   max-width: 1280px;
